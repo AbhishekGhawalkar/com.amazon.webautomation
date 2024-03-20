@@ -19,7 +19,7 @@ Scenario Outline: Adding a single item in cart and verifying sub total
 	Examples:
 	| Item name | nth |
 	| Monitor | 1 |
-	| Laptop | 1 |
+	| Laptop | 2 |
 	
 	
 @Adding_multiple_items_in_cart_and_verifying_sub_total
