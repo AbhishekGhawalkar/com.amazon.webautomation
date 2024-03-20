@@ -166,6 +166,7 @@ public class Page {
 				}
 			} else {
 				webDB.writeToConsole("WARN", "Added to cart message is not showing");
+				Assert.fail();
 			}
 		} catch (Exception e) {
 			webDB.writeToConsole("FAIL", "Failed to : " + e.getStackTrace()[0].getMethodName());
@@ -226,6 +227,7 @@ public class Page {
 				}
 			} else {
 				webDB.writeToConsole("WARN", "Product names and prices are not as expected");
+				Assert.fail();
 			}
 		} catch (Exception e) {
 			webDB.writeToConsole("FAIL", "Failed to : " + e.getStackTrace()[0].getMethodName());
