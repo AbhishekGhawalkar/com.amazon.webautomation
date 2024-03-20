@@ -35,7 +35,7 @@ public class Page {
 	@FindBy(xpath = "(//span[input[@id='add-to-cart-button']])[last()]")
 	WebElement addToCartBtnEle;
 
-	@FindBy(xpath = "(//span[@class='a-button-inner']//span[normalize-space()='Skip']/preceding-sibling::input)[1]")
+	@FindBy(xpath = "((//span[@class='a-button-inner']//span[normalize-space()='Skip']/preceding-sibling::input)[1] | //a[@id='attach-close_sideSheet-link'])[last()]")
 	WebElement sideSheetSkipBtnEle;
 
 	@FindBy(xpath = "//span[@id='productTitle']")
