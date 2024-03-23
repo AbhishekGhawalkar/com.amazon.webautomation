@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import pageObjects.Page;
 import utilities.DriverBase;
 
-public class Login_Step {
+public class AddToCartSteps {
 	private static DriverBase webDB = new DriverBase();
 	public static Page page;
 

@@ -22,8 +22,8 @@ Scenario Outline: Adding a single item in cart and verifying sub total
 	| Laptop | 2 |
 	
 	
-@Adding_multiple_items_in_cart_and_verifying_sub_total
-Scenario Outline: Adding a single item in cart and verifying sub total
+@Adding_two_items_in_cart_and_verifying_sub_total
+Scenario Outline: Adding two items in cart and verifying sub total
   When I type a "<Item name1>" in the search field
   And I Press Enter
   Then I should see a list of products displayed

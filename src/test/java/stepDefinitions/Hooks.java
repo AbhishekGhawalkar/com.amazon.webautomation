@@ -9,7 +9,7 @@ import utilities.DriverBase;
 public class Hooks {
 
 	private static DriverBase webDB = new DriverBase();
-	Login_Step steps = new Login_Step();
+	AddToCartSteps steps = new AddToCartSteps();
 
 	@Before(order = 0)
 	public void beforeFeature() throws AWTException {
