@@ -1,5 +1,5 @@
-Feature: Login
-Description: The purpose of this feature is to test login fumctionality
+Feature: Add to cart
+Description: The purpose of this feature is test add to cart functionality
 
 Background: I visit homepahge of amazon ecommerce application
 	Given I open amazon.com "https://www.amazon.in/"

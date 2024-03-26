@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = {".//Features"},
 		glue = "stepDefinitions",
-		tags ="@Abhi",
+		tags ="@Adding_a_single_item_in_cart_and_verifying_sub_total or @Adding_two_items_in_cart_and_verifying_sub_total",
 		dryRun = false,
 		monochrome = true,
 		plugin = { "pretty","html:./test-output/ExecutionReport.html" })
